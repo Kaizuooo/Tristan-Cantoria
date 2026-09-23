@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Goal 6</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 40px;
+    background: #f2f2f2;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  .outer {
+    background: #7b1160;
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    
+  }
+
+  .inner {
+    background: #1a00e6; 
+    padding: 10px;
+  }
+
+  .section {
+    padding: 10px;
+  }
+
+  .section:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .yellow-text {
+    color: #ffe600;
+    font-size: 20px;
+    margin: 0 0 10px 0; 
+  }
+
+  .red-box {
+    background: #ff0000;
+    padding: 10px;
+    
+  }
+
+  .white-text {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+</head>
+<body>
+
+  <div class="outer">
+    <div class="inner">
+
+      <div class="section">
+        <p class="yellow-text">Yellow Text</p>
+        <div class="red-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <p class="yellow-text">Yellow Text</p>
+        <div class="red-box">
+          <p class="white-text">White Text</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+}
+
+h1,
+h2 {
+  color: #6a0dad;
+}
+
+.box p.done {
+  color: sienna;
+}
+
+.list li {
+  color: blue;
+}
+
+.list li.done {
+  color: green;
+}
+
+ul p.done {
+  font-size: 10px;
+  color: black;
+}
